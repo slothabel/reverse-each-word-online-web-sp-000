@@ -1,12 +1,10 @@
-#require 'pry'
+require 'pry'
 def reverse_each_word(string)
  new_string = string.split(" ")
-
-  new_string.collect do |sentence|
+  modified = new_string.collect do |sentence|
     sentence.reverse
-    #sentence.join
   end
-
-#  binding.pry
+modified.join(" ")
+ #binding.pry
 
 end
