@@ -6,7 +6,7 @@ def reverse_each_word(string)
     sentence.reverse
     #sentence.join
   end
-
+modified.join
  binding.pry
 
 end
